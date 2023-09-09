@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF0D5"
+    android:orientation="vertical"
+    android:padding="30px"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+     >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Título: "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoNomeLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoAutorLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Autor: "
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ano de lançamento: "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoAnoLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ano de lançamento: "
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gênero: "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoGeneroLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Gênero: "
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantidade de páginas: "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoPaginasLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Páginas: "
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição do conteúdo: "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoDescricaoLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Descrição: "
+                android:textSize="20dp"
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temática(s): "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoTematicaLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temática: "
+
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indicado para: "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvDetalhadoIndicacaoLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Indicação: "
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capa do livro:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/ivDetalhadoCapaLivro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@null"
+                android:src="@mipmap/ic_launcher" />
+
+            <Button
+                android:id="@+id/bAcessar"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="Acessar"
+                android:textSize="20dp"></Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
