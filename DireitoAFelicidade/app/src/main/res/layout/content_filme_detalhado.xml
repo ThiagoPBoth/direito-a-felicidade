@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetalhadoNomeFilme"
+        android:text="Título: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetalhadoAnoFilme"
+        android:text="Ano: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetalhadoDuracaoFilme"
+        android:text="Duração: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetalhadoSinopseFilme"
+        android:text="Sinopse: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetalhadoTematicaFilme"
+        android:text="Temática: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetalhadoIndicacaoFilme"
+        android:text="Indicação: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetalhadoPlataformasFilme"
+        android:text="Plataformas: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+
+    <ImageView
+
+        android:id="@+id/ivDetalhadoCapaFilme"
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+
+
+        android:contentDescription="@null"
+
+        android:src="@mipmap/ic_launcher"
+    ></ImageView>
+
+</LinearLayout>
