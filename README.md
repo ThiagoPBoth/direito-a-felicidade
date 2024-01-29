@@ -4,7 +4,7 @@
 
 <h2>Ferramentas Utilizadas:</h2>
 
-+ Desenvolvido com Android Studio Project e XAMP
++ Desenvolvido com Android Studio e XAMP
   
 + App em Android (Java)
 + WebService em PHP para comunicação com o DB
